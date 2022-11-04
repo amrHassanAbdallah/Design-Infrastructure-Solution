@@ -1,0 +1,21 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+3528.09,19474.854000000003,233698.24800000002,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,Working days per month (22)
+My Estimate,US East (N. Virginia),,Gateway Load Balancer,0,261.58000000000004,3138.96,USD,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (1), Average number of new connections/flows (50000 per second)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,227.22,2726.64,USD,"Number of requests (HTTPS) (100000 per month), Data transfer out to origin (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to internet (1000 GB per month), Data transfer out to origin (200 GB per month), Number of requests (HTTPS) (100000 per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,3528.09,113.5,4890.09,USD,"Operating system (Linux), Quantity (5), Pricing strategy (EC2 Instance Savings Plans 3 Year Partial Upfront), Storage amount (31 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,15364.823999999999,184377.89,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (2), Instance type (db.m5.24xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,181.36,2176.32,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),replica,Amazon RDS for MySQL,0,3096.42,37157.04,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (298 GB), Quantity (3), Instance type (db.m2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,229.95,2759.40,USD,S3 Standard storage (9998 GB per month)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
