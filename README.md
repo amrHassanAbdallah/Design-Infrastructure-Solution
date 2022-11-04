@@ -20,10 +20,10 @@ terraform apply --var-file="secrets.tfvars" -state="app.tfstate"
 - [screenshots](screenshots)
 - [Udacity diageram 1](infra_diagrams/Udacity_Diagram_1.pdf)
 - [Udacity diageram 2](infra_diagrams/Udacity_Diagram_2.pdf)
-- [Initial Cost Estimate](screenshots/Initial_Cost_Estimate.csv)
-- [Reduced Cost Estimate](screenshots/Reduced_Cost_Estimate.csv)
+- [Initial Cost Estimate](cost/Initial_Cost_Estimate.csv)
+- [Reduced Cost Estimate](cost/Reduced_Cost_Estimate.csv)
 > Relaying on reserved instances instead of on-demand instances
-- [Increased Cost Estimate](Increased_Cost%20Estimate.csv)
+- [Increased Cost Estimate](cost/Increased_Cost_Estimate.csv)
 > increased DB and server resources
 
 
