@@ -8,3 +8,8 @@ provider "aws" {
   secret_key = var.aws_secret_key
 }
 
+module "lambda" {
+  source = "./lambda"
+  count = 0
+}
+
