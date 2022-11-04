@@ -10,3 +10,10 @@
 - [Increased Cost Estimate](Increased_Cost%20Estimate.csv)
 > increased DB and server resources
 
+```shell
+
+terraform init
+terraform plan --var-file="secrets.tfvars" -state="app.tfstate"
+terraform apply --var-file="secrets.tfvars" -state="app.tfstate"
+```
+
